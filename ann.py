@@ -72,5 +72,5 @@ y_pred = (y_pred > 0.5)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
-print("The confusion matrix to test the accuracy on test set are as follows:- \n")
+print("The confusion matrix to test the performance of the network on test set are as follows:- \n")
 print(cm)
